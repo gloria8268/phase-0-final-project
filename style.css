@@ -1,0 +1,39 @@
+header {
+  height: 70px;
+  background-color:rgb(148,168,74,0.5);
+  width: 100%;
+  position:fixed;
+  top:0px;
+  display:block;
+}
+
+h1 {
+  margin-left: 100px;
+  padding: 20px 0;
+  font: normal 800 x-large cursive;
+  color: #192b1d;
+  letter-spacing: 0.2em;
+  float:left;
+}
+
+.navbar {
+  float:left;
+  margin-left: 500px;
+  
+}
+
+.navbar ul li{
+  float:left;
+  margin:10px;
+}
+
+.navbar ul li a{
+  display:block;
+  /* height:70px; */
+  padding:20px 20px 10px 20px;
+  text-decoration: none;
+  color: #192b1d;
+  /* line-height: 70px; */
+  font: normal 500 medium cursive;
+}
+
