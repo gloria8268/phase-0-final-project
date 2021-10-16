@@ -1,10 +1,10 @@
 header {
   height: 70px;
-  background-color:rgb(148,168,74,0.5);
+  background-color: rgb(148, 168, 74, 0.5);
   width: 100%;
-  position:fixed;
-  top:0px;
-  display:block;
+  position: fixed;
+  top: 0px;
+  display: block;
 }
 
 h1 {
@@ -13,27 +13,71 @@ h1 {
   font: normal 800 x-large cursive;
   color: #192b1d;
   letter-spacing: 0.2em;
-  float:left;
+  float: left;
 }
 
 .navbar {
-  float:left;
+  float: left;
   margin-left: 500px;
-  
 }
 
-.navbar ul li{
-  float:left;
-  margin:10px;
+.navbar ul li {
+  float: left;
+  margin: 10px;
 }
 
-.navbar ul li a{
-  display:block;
+.navbar ul li a {
+  display: block;
   /* height:70px; */
-  padding:20px 20px 10px 20px;
+  padding: 20px 20px 10px 20px;
   text-decoration: none;
   color: #192b1d;
   /* line-height: 70px; */
   font: normal 500 medium cursive;
 }
+/* 
+main,
+footer {
+  position: relative;
+  top: 0px;
+} */
 
+.intro {
+  height: 800px;
+  width: 100%;
+  background-image: url(img/network-6511448_1920\ \(1\).jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 100% 600px;
+  opacity: 0.9;
+}
+
+.sign,
+.textS {
+  position: relative;
+  top: 230px;
+  width: 1000px;
+  margin: 60px auto;
+}
+
+.sign{
+  columns: 2;
+}
+
+.textL {
+  font: normal 700 6rem serif;
+  color: white;
+  letter-spacing: 0.1em;
+}
+
+.sign div:nth-child(2) {
+  text-align: right;
+}
+
+.textS {
+  width: 800px;
+  font: normal 500 1.5rem serif;
+  color: white;
+  text-align: center;
+  letter-spacing: 0.1em;
+}
