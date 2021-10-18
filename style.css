@@ -1,6 +1,6 @@
 header {
   height: 70px;
-  background-color: rgb(148, 168, 74, 0.5);
+  background-color: rgba(173, 204, 63, 0.5);
   width: 100%;
   position: fixed;
   top: 0px;
@@ -31,19 +31,13 @@ h1 {
   /* height:70px; */
   padding: 20px 20px 10px 20px;
   text-decoration: none;
-  color: #192b1d;
+  color: ;
   /* line-height: 70px; */
   font: normal 500 medium cursive;
 }
-/* 
-main,
-footer {
-  position: relative;
-  top: 0px;
-} */
 
 .intro {
-  height: 800px;
+  height: 550px;
   width: 100%;
   background-image: url(img/network-6511448_1920\ \(1\).jpg);
   background-repeat: no-repeat;
@@ -55,17 +49,17 @@ footer {
 .sign,
 .textS {
   position: relative;
-  top: 230px;
-  width: 1000px;
+  top: 200px;
+  width: 1200px;
   margin: 60px auto;
 }
 
-.sign{
+.sign {
   columns: 2;
 }
 
 .textL {
-  font: normal 700 6rem serif;
+  font: normal 700 5.5rem serif;
   color: white;
   letter-spacing: 0.1em;
 }
@@ -80,4 +74,94 @@ footer {
   color: white;
   text-align: center;
   letter-spacing: 0.1em;
+}
+
+.section-2 {
+  width: 100%;
+  height: 600px;
+}
+
+.wrap {
+  width: 1000px;
+  margin: 0 auto;
+  padding-left: 16px;
+  padding-top: 1px;
+}
+
+.selfIntro {
+  height: 600px;
+}
+
+.selfIntro h2 {
+  margin: 30px auto;
+  width: 250px;
+  padding: 20px 0;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+  font: normal 100 2rem serif;
+}
+
+.aboutMe,
+.bar {
+  padding: 20px 30px;
+  width: 400px;
+  height: 400px;
+  float: left;
+}
+
+.clear {
+  clear: both;
+}
+
+.aboutMe {
+  font: normal 400 1em proxima;
+  line-height: 1.5;
+}
+
+.aboutMe p {
+  margin-bottom: 15px;
+}
+
+.bar {
+  margin-left: 80px;
+}
+.barBack {
+  background-color: silver;
+  border-radius: 32px;
+  margin: 20px 20px 50px 20px;
+}
+
+.skill {
+  font: normal 400 1em proxima;
+  color: white;
+  background-color: #425844;
+  border-radius: 32px;
+  padding-left: 15px;
+}
+
+.barBack .skill{
+  width: 80%;
+}
+
+.bar .barBack:last-child .skill{
+  width:30%;
+}
+
+
+
+.section-3 {
+  width: 100%;
+  height: 800px;
+  background-color: greenyellow;
+}
+
+.projects {
+  columns: 5;
+  text-align: center;
+  border: 1px solid red;
+}
+
+.projects div {
+  border: 1px solid blue;
 }
