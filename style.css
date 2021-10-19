@@ -1,6 +1,6 @@
 header {
   height: 70px;
-  background-color: rgba(173, 204, 63, 0.5);
+  background-color: rgb(173, 204, 63, 0.5);
   width: 100%;
   position: fixed;
   top: 0px;
@@ -36,6 +36,7 @@ h1 {
   font: normal 500 medium cursive;
 }
 
+/* intro */
 .intro {
   height: 550px;
   width: 100%;
@@ -50,7 +51,7 @@ h1 {
 .textS {
   position: relative;
   top: 200px;
-  width: 1200px;
+  width: 1000px;
   margin: 60px auto;
 }
 
@@ -76,20 +77,19 @@ h1 {
   letter-spacing: 0.1em;
 }
 
+/* section-2 */
+
 .section-2 {
   width: 100%;
-  height: 600px;
-}
-
-.wrap {
-  width: 1000px;
-  margin: 0 auto;
-  padding-left: 16px;
-  padding-top: 1px;
+  height: 550px;
 }
 
 .selfIntro {
   height: 600px;
+  width: 1000px;
+  margin: 0 auto;
+  padding-left: 16px;
+  padding-top: 1px;
 }
 
 .selfIntro h2 {
@@ -140,28 +140,152 @@ h1 {
   padding-left: 15px;
 }
 
-.barBack .skill{
+.barBack .skill {
   width: 80%;
 }
 
-.bar .barBack:last-child .skill{
-  width:30%;
+.bar .barBack:last-child .skill {
+  width: 30%;
 }
 
-
+/* section-3 XI */
 
 .section-3 {
   width: 100%;
-  height: 800px;
-  background-color: greenyellow;
+  height: 550px;
+  background-color: #5d7963;
 }
 
-.projects {
-  columns: 5;
+.learnPath {
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 1px;
+}
+
+.learnPath h2 {
+  margin: 40px auto;
+  width: 450px;
+  padding: 20px 0;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
   text-align: center;
-  border: 1px solid red;
+  font: normal 100 2rem serif;
+  color: aliceblue;
+
+
 }
 
+
+.projects h3 {
+  font: normal 400 25px proxima;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  border: 2px solid aliceblue;
+  border-bottom-right-radius: 50px;
+  border-top-right-radius: 50px;
+  margin-bottom: 30px;
+  color: aliceblue;
+
+
+}
 .projects div {
-  border: 1px solid blue;
+  float: left;
+  margin:10px;
+  
+}
+
+
+.projects a img {
+  width: 180px;
+  height: 206px;
+  border-radius: 30px;
+}
+
+.projects p {
+  font: normal 300 20px proxima;
+  text-align: center;
+  margin-top: 15px;
+  color: aliceblue;
+
+
+}
+
+/* section-4 */
+
+.section-4 {
+  width: 100%;
+  height: 550px;
+}
+
+.showBlock{
+  width: 800px;
+  height: 100%;
+  margin: 0 auto;
+  padding-top: 1px;
+  position: relative;
+
+}
+
+
+.showBlock h2 {
+  margin: 30px auto;
+  width: 180px;
+  padding: 20px 0;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+  font: normal 100 2rem serif;
+}
+
+.window{
+  width: 600px;
+  height: 350px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.section-4 img, .section li{
+  display:block;
+  width: 595px;
+  height: 340px;;
+}
+
+.section-4 li{
+ position: absolute;
+ border:10px solid #7baeaa;
+ 
+}
+.window li:nth-child(1){
+  z-index: 1;
+}
+
+
+.pointer{
+  position: absolute;
+  z-index: 999;
+ bottom: 20px;
+ left:40px;
+
+}
+
+.pointer a{
+  float: left;
+  width:10px;
+  height:10px;
+  background-color:silver;
+  border-radius: 50%;
+  margin-left: 4px;
+
+
+}
+
+/* footer */
+
+footer {
+  height: 250px;
+  width: 100%;
+  background-image: url(./img/footerbackground.JPG);
+  /* background-position: center top;
+  background-size: 100% 600px;
+  opacity: 0.9; */
 }
