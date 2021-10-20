@@ -1,17 +1,18 @@
 header {
   height: 70px;
-  background-color: rgb(173, 204, 63, 0.5);
+  background-color: #546c56;
   width: 100%;
   position: fixed;
   top: 0px;
   display: block;
+  z-index: 1000;
 }
 
 h1 {
   margin-left: 100px;
   padding: 20px 0;
   font: normal 800 x-large cursive;
-  color: #192b1d;
+  color: white;
   letter-spacing: 0.2em;
   float: left;
 }
@@ -31,7 +32,7 @@ h1 {
   /* height:70px; */
   padding: 20px 20px 10px 20px;
   text-decoration: none;
-  color: ;
+  color: white;
   /* line-height: 70px; */
   font: normal 500 medium cursive;
 }
@@ -50,7 +51,7 @@ h1 {
 .sign,
 .textS {
   position: relative;
-  top: 200px;
+  top: 250px;
   width: 1000px;
   margin: 60px auto;
 }
@@ -171,10 +172,7 @@ h1 {
   text-align: center;
   font: normal 100 2rem serif;
   color: aliceblue;
-
-
 }
-
 
 .projects h3 {
   font: normal 400 25px proxima;
@@ -185,15 +183,11 @@ h1 {
   border-top-right-radius: 50px;
   margin-bottom: 30px;
   color: aliceblue;
-
-
 }
 .projects div {
   float: left;
-  margin:10px;
-  
+  margin: 10px;
 }
-
 
 .projects a img {
   width: 180px;
@@ -206,8 +200,6 @@ h1 {
   text-align: center;
   margin-top: 15px;
   color: aliceblue;
-
-
 }
 
 /* section-4 */
@@ -217,15 +209,13 @@ h1 {
   height: 550px;
 }
 
-.showBlock{
+.showBlock {
   width: 800px;
   height: 100%;
   margin: 0 auto;
   padding-top: 1px;
   position: relative;
-
 }
-
 
 .showBlock h2 {
   margin: 30px auto;
@@ -237,55 +227,104 @@ h1 {
   font: normal 100 2rem serif;
 }
 
-.window{
+.window {
   width: 600px;
   height: 350px;
   margin: 0 auto;
   position: relative;
 }
 
-.section-4 img, .section li{
-  display:block;
+.section-4 img,
+.section li {
+  display: block;
   width: 595px;
-  height: 340px;;
+  height: 340px;
 }
 
-.section-4 li{
- position: absolute;
- border:10px solid #7baeaa;
- 
+.section-4 li {
+  position: absolute;
+  border: 10px solid #7baeaa;
 }
-.window li:nth-child(1){
+.window li:nth-child(1) {
   z-index: 1;
 }
 
-
-.pointer{
+.pointer {
   position: absolute;
   z-index: 999;
- bottom: 20px;
- left:40px;
-
+  bottom: 20px;
+  left: 40px;
 }
 
-.pointer a{
+.pointer a {
   float: left;
-  width:10px;
-  height:10px;
-  background-color:silver;
+  width: 10px;
+  height: 10px;
+  background-color: silver;
   border-radius: 50%;
   margin-left: 4px;
-
-
 }
 
 /* footer */
 
 footer {
-  height: 250px;
+  height: 350px;
   width: 100%;
   background-image: url(./img/footerbackground.JPG);
-  /* background-position: center top;
-  background-size: 100% 600px;
-  opacity: 0.9; */
+}
+
+.contactBlock {
+  width: 600px;
+  margin: 0 auto;
+  padding-top: 1px;
+}
+
+.contactBlock h2 {
+  font: normal 200 2rem serif;
+  color: snow;
+  text-align: center;
+  width: 280px;
+  margin: 10px auto;
+  padding: 20px 0;
+}
+
+.details {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 25px;
+  margin-bottom: 10px;
+}
+
+.name-email,
+.message {
+  width: 460px;
+  margin: 0 auto 20px;
+  margin-bottom: 20px;
+}
+
+#fname {
+  margin-right: 35px;
+}
+
+input[type="text"] {
+  width: 35%;
+}
+input[type="text"],
+textarea[type="text"] {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+textarea[type="text"] {
+  width: 60%;
+}
+
+button[type="submit"] {
+  width: 15%;
+  background-color: #546c56;
+  color: #ccc;
+  margin: 0 auto;
+  border-radius: 4px;
+  cursor: pointer;
+  display: block;
 }

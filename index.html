@@ -20,7 +20,7 @@
             <a href="" class="click">About Me</a>
           </li>
           <li>
-            <a href="" class="click">Journey</a>
+            <a href="" class="click">Milestone</a>
           </li>
           <li>
             <a href="" class="click">Work</a>
@@ -143,7 +143,7 @@
                 <img src="./img/w1.png" alt="" />
               </a>
             </li>
-  
+
             <div class="pointer">
               <a href="javascript:;"></a>
               <a href="javascript:;"></a>
@@ -151,17 +151,35 @@
             </div>
           </ul>
         </div>
-        
       </section>
+    </main>
 
-   
     <footer>
-      <h2>CONTACT ME</h2>
-      <input type="text" />
-      <input type="text" />
-      <input type="text" />
-      <input type="text" />
+      <div class="contactBlock">
+        <h2>Contact Me</h2>
+
+        <form class="details">
+          <div class="name-email">
+            <label for="fname">Name</label>
+            <input type="text" id="fname" name="firstname" />
+            <label for="lname">Email</label>
+            <input type="text" id="lname" name="email" />
+          </div>
+
+          <div class="message">
+            <label for="message">Message</label>
+            <textarea
+              type="text"
+              id="message"
+              name="lastname"
+              cols="50"
+              rows="5"
+            ></textarea>
+          </div>
+
+          <button type="submit" value="Submit">Submit</button>
+        </form>
+      </div>
     </footer>
-    
   </body>
 </html>
